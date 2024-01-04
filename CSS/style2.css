@@ -1,0 +1,176 @@
+.nav-a{
+    font-size: 24px;
+    color: black;
+}
+.active{
+    color: red;
+}
+.date{
+    background-color: #3d58a6;
+    width: 56px;
+    height: 56px;
+    font-size: 48px; 
+    color: #FFFFFF;
+}
+/* .title{
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+} 
+es magalitad aris borderis gastilvis
+grdzeli versia, axla mokled davwerot
+*/
+.title{
+    border: 2px solid red;
+}
+
+/* .title{
+    margin-top: 21px;
+    margin-right: 100px;
+    margin-bottom: 17.5px;
+    margin-left: 50px;
+
+    isev margin inis grdzeli versia,
+    axla mokle
+} */
+.title{
+    margin: 21px 100px 17.5px 50px;
+}
+
+/* .title{
+    margin: 100px 50px 30px;
+} 
+es kidev ufro shemoklebuli versiaa,
+ubralod aq daakvirdi rogor dasvams,
+100px aris zevidan dashoreba,
+50px aris marcxnidan da marjvnidan,
+30px aris qvemodan dashoreba,
+axla kidev ufro mokle versia
+*/
+
+/* .title{
+    margin: 100px 50px;
+} 
+100px aris zevidan da qvevidan dashoreba,
+50px aris marjvnidan da marcxnidan.
+da sheidzleba ufro moklec
+*/
+
+/* .title{
+    margin: 100px;
+} 
+es nishnavs ro yvela mxridan
+dashoreba iqneba 100px
+*/
+
+.title{
+    padding: 100px 50px;
+}
+
+/* padding shida sazgvrebis
+dacilebaa, da zustad marginivit
+shegidzlia shemokleba. 
+
+KVELAZE MTAVARI MARGIN
+ARIS GARE DASHOREBA
+MAGALITAD OBIEQTEBS SHORIS,
+PADDING KIDE OBIQTIS SHIGNIT
+DASHOREBAA
+*/
+
+.title{
+    width: 300px;
+    height: 200px;
+}
+
+.text1{
+    border: 2px solid red;
+    display: inline-block;
+    width: 800px;
+}
+.text2{
+    border: 2px solid blue;
+    display: none;
+}
+
+/* display:
+block - avtomaturad dakavebul adgils da sazgvrebs anulebs.
+inline - gverdigverd ganlageba obieqtebis
+inline - block - gverdigvers ganlageba da zomebis micemac, sigane simagle.
+none - obieqtis gaqroba.
+*/
+
+.logo{
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.navigation{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* vertical-align: middle 
+es nishnavs ro minda ro ert zolze
+gatanabrebulad iyos magalitad logo
+da navigaciashi raebic miweria
+*/
+
+.container-block{
+    width: 1170px;
+    /* height: 400px;
+    background-color: blueviolet; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+
+.left-block{
+    width: 570px;
+    background-color: #F2F2F2;
+    display: inline-block;
+    padding: 13px 15px 24px 20px;
+    
+}
+.right-block{
+    width: 570px;
+    background-color: #F2F2F2;
+    display: inline-block;
+    padding: 13px 15px 24px 20px;
+}
+.text-block{
+    display: inline-block;
+    width: 355px;
+    vertical-align: middle;
+}
+.image-block{
+    vertical-align: middle;
+    margin-right: 60px;
+}
+.title-block{
+    margin-bottom: 12.5px;
+}
+.box1{
+    width: 213px;
+    height: 115px;
+    background-color: #F2F2F2;
+    /* padding-left: 4px;
+    padding-top: 10px; */
+    padding: 20px 0px 0px 4px;
+    margin-left: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ruka{
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+.bolder{
+    font-weight: bold;
+}
